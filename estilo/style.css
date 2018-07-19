@@ -1,0 +1,109 @@
+body{background-color:white; font-family:Arial, Helvetica,sans-serif; font-size:16px; }
+#geral { width:980px; margin: 0 auto; } 
+header{ height:150px;	background-color:white; background: url('../imagens/topo.jpg');} 
+nav{width:100%;}
+#menucentro{position:absolute; margin-left:0px; top:150px; width:800px;}
+
+#menucentro ul {padding:0px;
+			   margin:0px;
+			 list-style:none;			 
+			 }
+			 
+#menucentro ul li { display: inline; }
+
+#menucentro ul li a {padding: 2px 10px;
+				display: inline-block;
+				background-color:#1d524a;
+				color: white;
+				font-size:1.3em;
+				text-decoration: none;
+				border-bottom:3px solid #1d524a;}
+				
+#menucentro ul li a:hover {background-color:white;
+					  color: #1d524a;
+					 
+					  border:3px solid #1d524a;}
+article{  width:80%; float:left; margin-top:20px;margin-left:90px; } 
+.error { float: none; color: red; margin: 0 .5em 0 0; vertical-align: top; font-size: 10px }
+p { clear: both; }
+h2{
+	margin-left: 210px;
+	color:#FFA500;
+}
+a img{
+	border:none;
+}
+a {text-decoration: none;
+	color:#FFA500;}
+form{
+  background-color:white;
+  width:600px;
+  text-align:center;
+  color: #191970;
+  font-weight:bold;
+}
+form p{
+  padding:12px;
+}
+
+form p label{
+  color:#191970;
+  font-weight:bold;
+}
+form input{
+  padding:6px;
+  border:1px solid #ccc;
+  width:300px;
+}
+table{
+  width:600px;
+  border:1px solid #ccc;
+  margin-left:100px;
+}
+table thead th{
+  background-color:#1d524a;
+  padding:6px;
+  color: white;
+  text-align:center;
+ }
+table tbody td{
+  padding:6px;
+  text-align:center;
+  color: #191970;
+}
+#login{
+	background:#f2f2f2;
+	margin:5% 0 5% 20%;
+}
+#cadastro{
+	background:#f2f2f2;
+	margin:5% 0 5% 20%;
+}
+ .botao {
+        font-size:15px;
+        font-family:Verdana,Helvetica;
+        font-weight:bold;
+        color: white;
+        background:#1d524a;
+		border:0px;
+        width:100px;
+        height:30px;
+		padding:5px;
+		margin-left:40%;
+}
+.botao:hover{        
+        color: #1d524a;
+		border:3px solid #1d524a;
+        background:white;		
+}
+#fil{margin-right: 170px;}
+#todoform{
+	margin-left:40%;
+}
+
+#previsao{  
+    margin-top: -8px;
+    height: 3%;
+    color: white;
+    background-color: #1d524a;
+}
